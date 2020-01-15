@@ -1,7 +1,9 @@
 # Angulardemoforkv061java
 
 Demo angular project for KV-061.java group of SoftServe academy.
-#####I. To manage existing angular project or create new angular project your need to have on your computer:
+
+I. To manage existing angular project or create new angular project your need to have on your computer:
+
 1. Install Node.js - javaScript runtime on Chrome javaScript engine
 
       `sudo apt install nodejs`
@@ -20,8 +22,8 @@ Demo angular project for KV-061.java group of SoftServe academy.
 
 (You can find how to install angular in the first lecture of https://www.udemy.com/course/angular-5/  free course. It lasts less than 4 minutes)
 
-#####II. Clone this project to your computer.
-#####III. Run the project on your computer:
+II. Clone this project to your computer.
+III. Run the project on your computer:
 - navigate to the folder of cloned project
 
      `cd /where/your/clone/this/project/angulardemoforkv061java`
@@ -32,8 +34,8 @@ Demo angular project for KV-061.java group of SoftServe academy.
       
 Navigate to `http://localhost:4200/`, where your can see standard angular first page or what your wrote in .../angulardemoforkv061java/src/app/app.component.html.
 
-#####OR
-#####II. Create your own angular project:
+OR
+II. Create your own angular project:
   If you want create your own angular project, write next command in terminal (after 1-3 points of I.):
 
 - navigate to the folder where you want to create a project 
@@ -57,6 +59,8 @@ Navigate to `http://localhost:4200/`, where your can see standard angular first 
   
 
 
+
+
 Other commands to be used in the project:
  - generate components:
 `ng g c header`
@@ -67,27 +71,29 @@ Other commands to be used in the project:
 
  - add modules:
  
- FormsModule
+    FormsModule
  
- HttpClientModule
+    HttpClientModule
  
- AgmCoreModule.forRoot({
-       apiKey: 'AIzaSyDZi0wYlp1tFojFhnEeNc8bsGlHiiawYwU'
-     })
+   AgmCoreModule.forRoot({
+         apiKey: 'AIzaSyDZi0wYlp1tFojFhnEeNc8bsGlHiiawYwU'
+       })
  
   - add Google Maps:
-  `cd /where/your/your/project/angulardemoforkv061java`
-  `npm install -- save @agm/core`
+  
+      `cd /where/your/your/project/angulardemoforkv061java`
+      
+      `npm install -- save @agm/core`
  
 
 
-Useful links:
+ - Useful links:
 
- - Get an API Key for Google Maps:
+      Get an API Key for Google Maps:
 
-https://developers.google.com/maps/documentation/javascript/get-api-key
+      https://developers.google.com/maps/documentation/javascript/get-api-key
 
- - Angular – Display Current Location Using Google Map:
+      Angular – Display Current Location Using Google Map:
 
-https://www.codementor.io/@brijmcq/angular-display-current-location-using-google-map-fnl3tosdq
+      https://www.codementor.io/@brijmcq/angular-display-current-location-using-google-map-fnl3tosdq
 
